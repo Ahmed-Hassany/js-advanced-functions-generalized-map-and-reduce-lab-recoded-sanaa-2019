@@ -6,5 +6,5 @@ function reduce(arr,func,sp){
   if(sp!=null)
   return arr.reduce(func,sp)
   else
-  return arr.reduce(func,0)
+  return arr.reduce(func)
 }
