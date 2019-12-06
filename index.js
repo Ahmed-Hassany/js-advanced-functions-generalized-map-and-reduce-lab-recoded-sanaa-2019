@@ -3,6 +3,8 @@ function map(arr,func){
   return arr.map(func)
 }
 function reduce(arr,func,sp=0){
-  if()
+  if(sp!=null)
   return arr.reduce(func,sp)
+  else
+  return arr.reduce(func,arr[0])
 }
